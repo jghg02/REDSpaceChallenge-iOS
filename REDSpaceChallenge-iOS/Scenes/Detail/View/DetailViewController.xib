@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="REDSpaceTest" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="REDSpaceChallenge_iOS" customModuleProvider="target">
             <connections>
                 <outlet property="avatar" destination="WJo-do-8l3" id="RF0-aZ-Nff"/>
                 <outlet property="episodeImage" destination="VII-9I-Hmd" id="gwN-Yw-NBo"/>
@@ -42,7 +42,7 @@
                             </userDefinedRuntimeAttributes>
                         </imageView>
                     </subviews>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
                         <constraint firstItem="WJo-do-8l3" firstAttribute="top" secondItem="g7a-yl-w1P" secondAttribute="top" id="L7M-G4-hLE"/>
                         <constraint firstItem="WJo-do-8l3" firstAttribute="leading" secondItem="g7a-yl-w1P" secondAttribute="leading" id="Ulc-XA-Xyj"/>
@@ -201,7 +201,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
                         <constraint firstItem="ZLb-wc-TVd" firstAttribute="leading" secondItem="Adk-bA-uyH" secondAttribute="leading" constant="10" id="0U2-4b-wic"/>
                         <constraint firstItem="ZLb-wc-TVd" firstAttribute="top" secondItem="b2h-vP-rMR" secondAttribute="bottom" constant="10" id="4mK-l4-nKA"/>
@@ -226,14 +226,14 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gj1-y1-y6f" customClass="SpinnerView" customModule="REDSpaceTest" customModuleProvider="target">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gj1-y1-y6f" customClass="SpinnerView" customModule="REDSpaceChallenge_iOS" customModuleProvider="target">
                     <rect key="frame" x="197" y="442" width="20" height="20"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="g7a-yl-w1P" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="5Lu-pa-sF8"/>
                 <constraint firstItem="Adk-bA-uyH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="6PF-so-ssn"/>

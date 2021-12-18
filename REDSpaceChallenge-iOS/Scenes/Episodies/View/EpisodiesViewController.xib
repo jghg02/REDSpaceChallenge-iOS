@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EpisodiesViewController" customModule="REDSpaceTest" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EpisodiesViewController" customModule="REDSpaceChallenge_iOS" customModuleProvider="target">
             <connections>
                 <outlet property="spinnerView" destination="DJD-zp-bka" id="cNT-Q5-Vs1"/>
                 <outlet property="tableView" destination="cC6-ON-b83" id="vXJ-U7-1Wm"/>
@@ -29,14 +29,14 @@
                         <outlet property="delegate" destination="-1" id="Jnj-j4-YAW"/>
                     </connections>
                 </tableView>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DJD-zp-bka" customClass="SpinnerView" customModule="REDSpaceTest" customModuleProvider="target">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DJD-zp-bka" customClass="SpinnerView" customModule="REDSpaceChallenge_iOS" customModuleProvider="target">
                     <rect key="frame" x="197" y="438" width="20" height="20"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="cC6-ON-b83" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3cf-Yl-WbL"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="cC6-ON-b83" secondAttribute="bottom" id="f3D-43-YNX"/>

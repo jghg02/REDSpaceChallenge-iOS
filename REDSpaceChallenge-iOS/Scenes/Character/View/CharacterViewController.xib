@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CharacterViewController" customModule="REDSpaceTest" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CharacterViewController" customModule="REDSpaceChallenge_iOS" customModuleProvider="target">
             <connections>
                 <outlet property="collectionView" destination="9UL-bR-Kcb" id="N7w-DQ-Ds0"/>
                 <outlet property="spinnerView" destination="wlN-Hw-xur" id="M5u-sB-HAa"/>
@@ -22,7 +22,7 @@
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="9UL-bR-Kcb">
                     <rect key="frame" x="10" y="44" width="394" height="818"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="3" minimumInteritemSpacing="3" id="jai-91-HN1">
                         <size key="itemSize" width="128" height="128"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -34,14 +34,14 @@
                         <outlet property="delegate" destination="-1" id="ee5-Gj-ScU"/>
                     </connections>
                 </collectionView>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wlN-Hw-xur" customClass="SpinnerView" customModule="REDSpaceTest" customModuleProvider="target">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wlN-Hw-xur" customClass="SpinnerView" customModule="REDSpaceChallenge_iOS" customModuleProvider="target">
                     <rect key="frame" x="87" y="389" width="240" height="128"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="9UL-bR-Kcb" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="GMl-Ib-tow"/>
                 <constraint firstItem="9UL-bR-Kcb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="TFD-aw-cje"/>

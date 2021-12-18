@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LocationsViewController" customModule="REDSpaceTest" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LocationsViewController" customModule="REDSpaceChallenge_iOS" customModuleProvider="target">
             <connections>
                 <outlet property="spinnerView" destination="Wv5-JO-a5U" id="VQQ-Vc-aOE"/>
                 <outlet property="tableView" destination="VSe-hC-xHb" id="01n-Hh-nZa"/>
@@ -29,14 +29,14 @@
                         <outlet property="delegate" destination="-1" id="4Wt-sC-dfn"/>
                     </connections>
                 </tableView>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wv5-JO-a5U" customClass="SpinnerView" customModule="REDSpaceTest" customModuleProvider="target">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wv5-JO-a5U" customClass="SpinnerView" customModule="REDSpaceChallenge_iOS" customModuleProvider="target">
                     <rect key="frame" x="197" y="438" width="20" height="20"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="VSe-hC-xHb" secondAttribute="bottom" id="9tw-ya-hHZ"/>
                 <constraint firstItem="VSe-hC-xHb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="AD7-H5-see"/>
