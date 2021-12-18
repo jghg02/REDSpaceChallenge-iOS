@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B128B12276D3A8F00C9617E /* REDSpaceChallenge_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B128B11276D3A8F00C9617E /* REDSpaceChallenge_iOSTests.swift */; };
 		6B128B1C276D3A8F00C9617E /* REDSpaceChallenge_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B128B1B276D3A8F00C9617E /* REDSpaceChallenge_iOSUITests.swift */; };
 		6B128B1E276D3A8F00C9617E /* REDSpaceChallenge_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B128B1D276D3A8F00C9617E /* REDSpaceChallenge_iOSUITestsLaunchTests.swift */; };
 		6B128B30276D3AD200C9617E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B128B2D276D3AD200C9617E /* Coordinator.swift */; };
@@ -53,6 +52,9 @@
 		6B128B9F276D3CCB00C9617E /* SpinnerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B128B9D276D3CCB00C9617E /* SpinnerView.xib */; };
 		6B128BA0276D3CCB00C9617E /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B128B9E276D3CCB00C9617E /* SpinnerView.swift */; };
 		6B128BA3276D63E200C9617E /* JNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 6B128BA2276D63E200C9617E /* JNetworking */; };
+		6B128BA7276D6D8100C9617E /* SpinnerViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B128BA6276D6D8100C9617E /* SpinnerViewTest.swift */; };
+		6B128BAA276D6D9F00C9617E /* AppCoordinatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B128BA8276D6D9F00C9617E /* AppCoordinatorTest.swift */; };
+		6B128BAB276D6D9F00C9617E /* DetailCoordinatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B128BA9276D6D9F00C9617E /* DetailCoordinatorTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +77,6 @@
 /* Begin PBXFileReference section */
 		6B128AF7276D3A8D00C9617E /* REDSpaceChallenge-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "REDSpaceChallenge-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B128B0D276D3A8F00C9617E /* REDSpaceChallenge-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REDSpaceChallenge-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B128B11276D3A8F00C9617E /* REDSpaceChallenge_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REDSpaceChallenge_iOSTests.swift; sourceTree = "<group>"; };
 		6B128B17276D3A8F00C9617E /* REDSpaceChallenge-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REDSpaceChallenge-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B128B1B276D3A8F00C9617E /* REDSpaceChallenge_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REDSpaceChallenge_iOSUITests.swift; sourceTree = "<group>"; };
 		6B128B1D276D3A8F00C9617E /* REDSpaceChallenge_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REDSpaceChallenge_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -122,6 +123,9 @@
 		6B128B99276D3CBF00C9617E /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		6B128B9D276D3CCB00C9617E /* SpinnerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpinnerView.xib; sourceTree = "<group>"; };
 		6B128B9E276D3CCB00C9617E /* SpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		6B128BA6276D6D8100C9617E /* SpinnerViewTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerViewTest.swift; sourceTree = "<group>"; };
+		6B128BA8276D6D9F00C9617E /* AppCoordinatorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTest.swift; sourceTree = "<group>"; };
+		6B128BA9276D6D9F00C9617E /* DetailCoordinatorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCoordinatorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,7 +194,8 @@
 		6B128B10276D3A8F00C9617E /* REDSpaceChallenge-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				6B128B11276D3A8F00C9617E /* REDSpaceChallenge_iOSTests.swift */,
+				6B128BA5276D6D7200C9617E /* Views */,
+				6B128BA4276D6D6E00C9617E /* Coordinators */,
 			);
 			path = "REDSpaceChallenge-iOSTests";
 			sourceTree = "<group>";
@@ -485,6 +490,23 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		6B128BA4276D6D6E00C9617E /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				6B128BA8276D6D9F00C9617E /* AppCoordinatorTest.swift */,
+				6B128BA9276D6D9F00C9617E /* DetailCoordinatorTest.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		6B128BA5276D6D7200C9617E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B128BA6276D6D8100C9617E /* SpinnerViewTest.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -560,6 +582,7 @@
 					};
 					6B128B0C276D3A8F00C9617E = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 						TestTargetID = 6B128AF6276D3A8D00C9617E;
 					};
 					6B128B16276D3A8F00C9617E = {
@@ -669,7 +692,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B128B12276D3A8F00C9617E /* REDSpaceChallenge_iOSTests.swift in Sources */,
+				6B128BAA276D6D9F00C9617E /* AppCoordinatorTest.swift in Sources */,
+				6B128BA7276D6D8100C9617E /* SpinnerViewTest.swift in Sources */,
+				6B128BAB276D6D9F00C9617E /* DetailCoordinatorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -874,6 +899,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96583FPNGW;
@@ -888,6 +914,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jghg.REDSpaceChallenge-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REDSpaceChallenge-iOS.app/REDSpaceChallenge-iOS";
@@ -899,6 +926,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96583FPNGW;
